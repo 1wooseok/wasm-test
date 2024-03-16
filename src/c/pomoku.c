@@ -17,7 +17,6 @@ EXTERN EMSCRIPTEN_KEEPALIVE static unsigned int s_curr_col_size = 0;
 EXTERN EMSCRIPTEN_KEEPALIVE static unsigned int s_black_score = 0;
 EXTERN EMSCRIPTEN_KEEPALIVE static unsigned int s_white_score = 0;
 
-/* HACKL for wasm */
 EXTERN EMSCRIPTEN_KEEPALIVE int (*get_board(void))[MAX_BOARD_SIZE]
 {
     return s_board;
